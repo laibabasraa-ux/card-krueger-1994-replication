@@ -45,9 +45,9 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Third-party source data
-# Original Card-Krueger files are downloaded locally and are not redistributed
-data/raw/*
+# Original downloaded archive
+# Extracted source files are included in the repository with permission
+data/raw/njmin.zip
 
 # Generated datasets
 # Recreated locally by the R cleaning scripts
