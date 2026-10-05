@@ -11,7 +11,7 @@ Then, they examine whether employment changes were concentrated among the stores
 
 Lastly, using GAP regressions, they ask whether stores facing larger required increases in wages experienced relatively different changes in employment. 
 ## Economic Motivation
-minimum wage policy creates an important empirical question because economic theory predicts that government mandated increases in wages may affect firms' demand for labour.  
+Minimum wage policy raises an important empirical question because economic theory predicts that government mandated increases in wages may affect firms' demand for labour.  
 
 ## Conventional Economic Prediction
 In the standard competitive labour-market model, a minimum wage set above the market equilibrium wage pushes the cost of labour higher and reduces the quantity of labour demanded.
@@ -20,31 +20,31 @@ In the standard competitive labour-market model, a minimum wage set above the ma
 Card and Krueger investigate whether this conventional prediction is supported by evidence from New Jersey's 1992 minimum wage increase. They explore whether this theory holds up in real life.
 
 ## Natural Experiment
-In April 1992, NJ increased its minimum wage from $4.25 to $5.05 while PA retained the federal minimum wage of $4.25.The fast-food industry was studied because it provided a relatively comparable setting across the two areas. The survey covered about 410 fast-food restaurants in two waves. The two survey waves were before the increase and then a few months after the increase. This creates a treated group (NJ) and a control group (PA). 
+In April 1992, NJ increased its minimum wage from $4.25 to $5.05 while PA retained the federal minimum wage of $4.25. The fast-food industry was studied because it provided a relatively comparable setting across the two areas. The survey covered about 410 fast-food restaurants in two waves. The first survey wave preceded the increase, while the second was conducted several months afterward. This creates a treated group (NJ) and a control group (PA). 
 
 ## Treatment and Control
-New Jersey(NJ) acts as the treatment group to assess the effect of the minimum wage increase on employment. Employment changes in Pennsylvania(PA) are observed as part of the control group to seperate any industry or external factors aside from the observed treatment.
+New Jersey (NJ) acts as the treatment group to assess the effect of the minimum wage increase on employment. Employment changes in Pennsylvania (PA) are observed as part of the control group to separate any industry or external factors aside from the observed treatment.
 
 ## Data
 Fast-food restaurants are observed across NJ and PA before and after the treatment. The survey collected information about employment, wages, restaurant characteristics, prices, and other characteristics relevant to the analysis. 
 
 ## Outcome Variable
-Card & Krueger observe Full-time equivalent employment (FTE) as a common measure of employment. FTE includes full-time employees, managers, and part-time employees to capture employment more meaningfully. 
+Card & Krueger observe full-time equivalent employment (FTE) as a common measure of employment. FTE includes full-time employees, managers, and part-time employees to capture employment more meaningfully. 
 FTE = Full-time employees + Managers + 0.5(Part-time employees)
 
 ## Identification Strategy
-Did attempts to remove the employment change that might have happened regardless of the policy because of wider economy factors. It employs a parallel-trends assumption to capture a counter-factual. 
+DiD attempts to remove the employment change that might have happened regardless of the policy because of wider economic factors. It employs a parallel-trends assumption to capture a counterfactual. 
 
         DiD = (NJ after - NJ before) - (PA after - PA before)
 
 If NJ and PA would have experienced similar employment changes in the absence of the NJ minimum-wage increase, then the change observed in PA can provide an estimate of what would have happened to NJ without the policy. 
 
 ## Identifying Assumption
-The central ssumption is that in the absence of the NJ min-wage increase, fast-food restaurant employment in both states would have changed similarly. This is a reasonable assumption due to the similarity of the industry and geographic proximity. 
-(These features do not estavlish that the parallel-trends asuumption holds absolutely)
+The central assumption is that in the absence of the NJ minimum-wage increase, fast-food restaurant employment in both states would have changed similarly. The industry similarity and geographic proximity provide some support for this assumption, although they do not establish that parallel trends necessarily hold. 
+(These features do not establish that the parallel-trends asuumption holds absolutely)
 
 ## Table 1
-Table 1 shows the sample frame and response rates for the two survey waves. Wave 1 (February 15- March 4, 1992) taken before the NJ increase. Wave 2 (November 5 - December 31, 1992) was after the increase. 
+Table 1 shows the sample frame and response rates for the two survey waves. Wave 1 (February 15- March 4, 1992) was conducted before the NJ increase. Wave 2 (November 5 - December 31, 1992) was after the increase. 
 
 - Wave 1 
 total sample frame: 437 stores - (86.7) - 410 interviewed
@@ -58,7 +58,7 @@ NJ 331 - 5 closed - 321 interviewed
 PA  79 - 1 closed - 78 interviewed
 
 ## Table 2
-Table 2 shows the characteristics of the resturants. It compares characteristics between NJ and PA like starting wage, FTE employment, proportion paying $5.05 after the policy. It shows what changed between Wave 1 and Wave 2. 
+Table 2 shows the characteristics of the restaurants. It compares characteristics between NJ and PA like starting wage, FTE employment, proportion paying $5.05 after the policy. It shows what changed between Wave 1 and Wave 2. 
 
 Note!: It acts as descriptive evidence and not proof of parallel trends
 
@@ -66,17 +66,17 @@ Note!: It acts as descriptive evidence and not proof of parallel trends
 Table 3 shows the main employment comparison. I understand it as broken up into two parts (NJ vs PA and Within NJ). 
 
 - NJ vs PA 
-The basic DiD comes from comparing changes in employment between NJ and PA. It reports employemnt before & after, chnage in employment, change for a balanced sample, and an alternative treatment of temporarily closed stores.
+The basic DiD comes from comparing changes in employment between NJ and PA. It reports employment before & after, change in employment, change for a balanced sample, and an alternative treatment of temporarily closed stores.
 
 - Within NJ
-NJ stores are broken up into 3 groups, depending on their initial wage. Low (=$4.25), Medium ($4.26 - $4.99), High (=> $5.00). This allowed them to cature behaviour differences among stores that were affected most and those that were largely unaffected. 
+NJ stores are broken up into 3 groups, depending on their initial wage. Low (=$4.25), Medium ($4.26 - $4.99), High (≥ $5.00). This allowed them to capture behaviour differences among stores that were affected most and those that were largely unaffected. 
 It allows them another method of comparison than just looking at PA. 
 
 ## GAP Measure
-A continous measures of treatment intensity. "GAP is the proportional increase in wages at store i necessary to meet the new minimum rate."
+A continuous measure of treatment intensity. "GAP is the proportional increase in wages at store i necessary to meet the new minimum rate."
 GAP was set as zero for PA stores and NJ stores already above $5.05.
 
--> Did employment change generally or were the changes concentrated to those most affected?
+-> Did employment change generally or were the changes concentrated among those most affected?
 
 ## Table 4
                 ΔEi​ = α + βNJi​ + γXi​ + ϵi 
@@ -89,11 +89,11 @@ Xi = additional controls
 It then tests robustness of the model by changing different specifications and ways of measuring data.
 
 ## Closures and Attrition
-An important issue that came up is that not all restaurants observed in the first wave were observed in the second wave. Some restuarants were closed, temporarily closed, or unresponsive. This creates a potential issue when measuring changes in employment as they may represent as a loss of employment or alternatively as the loss not being captured. 
+An important issue that came up is that not all restaurants observed in the first wave were observed in the second wave. Some restaurants were closed, temporarily closed, or unresponsive. This creates a measurement issue: closures may represent genuine employment losses, while excluding them could cause those losses to be missed. 
 
 Card & Krueger use only the restaurants for which employment can be observed across the two waves in their main analysis. They consider the alternative treatments of these stores as part of the later empirical checks. 
 
-Note!: I'll need to determine exactly which restaurants are included in each specification and hoe the closures and missing observations are treated. 
+Note!: I'll need to determine exactly which restaurants are included in each specification and how the closures and missing observations are treated. 
 
 ## Other Empirical Checks
 Card and Krueger perform several additional empirical checks to investigate whether their main employment result is sensitive to the way the data and sample are treated. These include alternative samples, alternative measures of employment, different treatments of restaurants that were closed or temporarily closed, and controls for other restaurant characteristics.
@@ -136,11 +136,11 @@ My understanding is, therefore, that the paper is not simply comparing employmen
 [ ] Reconstruct Table 3
 [ ] Reconstruct Table 4
 [ ] Compare replicated results with the published results
-[ ] Investigate and discrepancies 
+[ ] Investigate any discrepancies 
 [ ] Treatment of closures and missing observations
-[ ] Document Std. Error and inference choices
-[ ] Challenge and asses identification assumptions
-[ ]  Conduct robustness checks
+[ ] Document Standard-error and inference choices
+[ ] Challenge and assess identification assumptions
+[ ] Conduct robustness checks
 
 ## Potential AI-Assisted Tasks
 - Use AI to help interpret the original codebook and identify relevant  variables.
@@ -149,7 +149,7 @@ My understanding is, therefore, that the paper is not simply comparing employmen
 - Use AI to help locate relevant literature on the minimum-wage debate.
 - Ask AI to critique my interpretation for unsupported causal claims.
 
--- Test effectiveness of AI for research 
--- Ask AI to propose initial R code for data cleaning and replication.
--- Independently verify AI-generated code against the paper and codebook.
--- Compare my independently produced results with an AI-generated replication.
+## Test effectiveness and reliability of AI for research 
+- Ask AI to propose initial R code for data cleaning and replication.
+- Independently verify AI-generated code against the paper and codebook.
+- Compare my independently produced results with an AI-generated replication.

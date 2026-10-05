@@ -45,8 +45,8 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Original downloaded archive
-# Extracted source files are included in the repository with permission
+# Original Card & Krueger source files included with permission
+# from Professor David Card for this non-commercial public replication project.
 data/raw/njmin.zip
 
 # Generated datasets
