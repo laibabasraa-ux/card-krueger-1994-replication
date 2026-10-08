@@ -109,10 +109,14 @@ clean_data <- raw_data|>
     NJ = STATE,
     
     # Store initially paying the old $4.25 minimum wage
-    ATMIN = as.integer(WAGE_ST == 4.25),
+    ATMIN = as.integer(
+      !is.na(WAGE_ST) & WAGE_ST == 4.25
+    ),
     
     # Store paying exactly the new $5.05 NJ minimum wage in Wave 2
-    NEWMIN = as.integer(WAGE_ST2 == 5.05),
+    NEWMIN = as.integer(
+      !is.na(WAGE_ST2) & WAGE_ST2 == 5.05
+    ),
     
     # Initial wage gap
     # PA stores have no exposure to the NJ minimum-wage increase
