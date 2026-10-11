@@ -114,3 +114,40 @@ Yes / No
 ## Unsupported observations (forced correct answers)
 
 ## Final assessment 
+
+## AI test input files
+
+The same three files will be supplied to each model during the first blind first-pass replication. 
+
+### public.txt
+Original Card-Krueger public dataset.
+SHA256: [04BDE0CAD5540980F32CE099C6DAD369E2F05494698071D8A65B3E1CBE9CA53A]
+
+### codebook.txt
+Original variable codebook.
+SHA256: [1D801D7BDFA77AD2138D79EAD54EEF830913A2BDF4861A50EE013B3474E4B52F]
+
+### card_krueger_1994.pdf
+Published Card and Krueger paper.
+SHA256: [6F9B9F1B6DA9834C2A68BF86FC6078C83ACDD7507DB0D37B8B4814DFD2B3462E]
+
+## Individual replication status before AI testing
+
+The independent human replication was completed before the AI tests.
+
+### Table 2
+Replicated closely from the public data.
+
+Known discrepancy:
+- NJ Wave 2 share paying exactly $5.05:
+  - public-data replication: 85.5%
+  - published value: 85.2%
+
+### Table 3
+Main public-data replication:
+- NJ-PA employment change: approximately 2.75 FTE
+- published value: 2.76 FTE
+
+Rows 4 and 5 reproduce closely.
+
+Some Row 3 standard errors do not exactly reproduce the published values.
